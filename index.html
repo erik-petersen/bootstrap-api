@@ -1,0 +1,53 @@
+<!-- This app will ask for a user's location and based on that, will return top 5 local yelp restaurants
+     and a list of homes for sale around the number one restaurant -->
+
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Home Sweet Food</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/meyer-reset/2.0/reset.min.css">
+    <link href='https://fonts.googleapis.com/css?family=Shadows+Into+Light' rel='stylesheet' type='text/css'>
+    <!-- <link rel="shortcut icon" href="assets/chicken.png" type="image/x-icon">
+    <link rel="icon" href="assets/chicken.png" type="image/x-icon"> -->
+    <!-- Latest compiled and minified CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css"
+    integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
+    <!-- Latest compiled and minified JavaScript -->
+    <!-- <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"
+    integrity="sha384-0mSbJDEHialfmuBBQP6A4Qrprq5OVfW37PRR3j5ELqxss1yVqOtnepnHVP9aJ7xS" crossorigin="anonymous">
+    </script> -->
+    <link rel="stylesheet" href="assets/css/styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.6.3/css/font-awesome.min.css">
+  </head>
+  <body>
+    <!-- Big jumbotron header section -->
+    <img class="jumbotron-img" src="assets/images/header.jpg" alt="Picture of Silverware and House">
+    <div class="jumbotron">
+      <div class="container">
+        <!-- input box for entering user's city and state -->
+        <div class="col-lg-5">
+          <div class="input-group">
+            <input type="text" class="form-control" placeholder="City, State">
+            <span class="input-group-btn">
+              <button class="btn btn-default" type="button">Go!</button>
+            </span>
+          </div><!-- end input-group -->
+        </div><!-- end col-lg-6 -->
+      </div><!-- end class "container" -->
+      <!-- area to display top 5 restaurants near user -->
+      <div class="panel panel-default">
+        <div class="panel-body restaurants">
+          <h3>Top 5 Restaurants Near You</h3>
+        </div>
+        <!-- area to display house near user -->
+        <div class="panel-body houses">
+          <h3>Houses Near Your Restaurant</h3>
+        </div>
+      </div>
+    </div><!-- end class "jumbotron" -->
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.4/jquery.min.js"></script>
+    <script src="assets/js/scripts.js"></script>
+  </body>
+</html>
