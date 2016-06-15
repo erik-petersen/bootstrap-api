@@ -28,12 +28,19 @@ h3 {
 }
 
 .houses {
+  display: inline-block;
   position: absolute;
   right: 15.5em;
-  bottom: 10.75em;
+  bottom: 8.35em;
 }
 
 .restaurants-list {
   list-style: decimal;
-  margin-left: 14em;
+  margin-left: 18em;
+}
+
+.house-pic {
+  position: absolute;
+  left: 63em;
+  bottom: -8em;
 }
