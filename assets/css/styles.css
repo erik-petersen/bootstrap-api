@@ -30,5 +30,10 @@ h3 {
 .houses {
   position: absolute;
   right: 15.5em;
-  bottom: 7.5em;
+  bottom: 10.75em;
+}
+
+.restaurants-list {
+  list-style: decimal;
+  margin-left: 14em;
 }
